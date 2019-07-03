@@ -2,24 +2,24 @@
 
 > This plugin requires VuePress >= **1.0.0**
 
-A vuepress blog theme extends from [@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md)
+基于默认主题[@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md)扩展的博客主题
 
-[中文说明](./README-zh.md)  |  [Demo](https://blog.sanbaofengs.com)
+[中文说明](./zh/README.md)  |  [Demo](https://blog.sanbaofengs.com)
 
 ## Features
 
-- Tiny
-- Remove something doesn't matter for me
+- 极简
+- 移除了没啥用的东西
 
-## Install
+## 安装
 
 ```bash
 npm i vuepress-theme-bb
 ```
 
-## Usage
+## 使用
 
-### Using this theme:
+### 设置主题:
 
 ```js
 // .vuepress/config.js
@@ -28,14 +28,14 @@ module.exports = {
 }
 ```
 
-### Config
+### 配置
 
-Everything stays the same as [default](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)
+基本和[默认](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)保持一致
 
-**Expect**:
-- Sidebar: No such thing.
-- Nav: No such thing.
-- Home page: It has been written. *README.md* is required. All you need is
+**除了**:
+- 侧边栏: 干掉了.
+- 导航: 重写了.
+- 首页: 重写了. 必须得有 *README.md*. 
     ```
     # README.md
     ---
@@ -44,7 +44,7 @@ Everything stays the same as [default](https://v1.vuepress.vuejs.org/zh/theme/de
     ---
     ```
 
-## Development
+## 开发
 
 ```bash
 git clone https://github.com/x-bao/vuepress-theme-bb
@@ -52,7 +52,7 @@ cd vuepress-theme-bb
 yarn
 ```
 
-## Contributing
+## 贡献
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
