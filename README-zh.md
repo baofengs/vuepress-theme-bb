@@ -22,7 +22,7 @@ npm i vuepress-theme-bb
 ### 设置主题:
 
 ```js
-// .vuepress/config.js
+// @file .vuepress/config.js
 module.exports = {
     theme: 'vuepress-theme-bb'
 }
@@ -36,8 +36,8 @@ module.exports = {
 - 侧边栏: 干掉了.
 - 导航: 重写了.
 - 首页: 重写了. 必须得有 *README.md*. 
-    ```
-    # README.md
+    ```md
+    <!-- @file README.md -->
     ---
     home: true
     about: path-to-your-about-page
