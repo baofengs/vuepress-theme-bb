@@ -36,8 +36,8 @@ Everything stays the same as [default](https://v1.vuepress.vuejs.org/zh/theme/de
 - Sidebar: No such thing.
 - Nav: No such thing.
 - Home page: It has been written. *README.md* is required. All you need is
-    ```
-    # README.md
+    ```md
+    <!-- @file README.md -->
     ---
     home: true
     about: path-to-your-about-page
