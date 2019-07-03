@@ -1,0 +1,35 @@
+{
+    "name": "vuepress-theme-bb",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": "sanbaofeng <sanbaofeng@baijiahulian.com>",
+    "description": "A vuepress theme extends from @vuepress/theme-default",
+    "main": "src/index.js",
+    "keywords": [
+        "vuepress",
+        "vuepress-theme"
+    ],
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "release": "release-it"
+    },
+    "repository": {
+        "url": "x-bao/vuepress-theme-bb",
+        "type": "git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "release-it": "^12.3.0",
+        "vuepress": "^1.0.0",
+        "vuepress-plugin-new": "^0.1.6"
+    },
+    "peerDependencies": {
+        "vuepress": ">=1.0.0"
+    },
+    "bugs": {
+        "url": "https://github.com/x-bao/vuepress-theme-bb/issues"
+    },
+    "homepage": "https://github.com/x-bao/vuepress-theme-bb#readme"
+}
