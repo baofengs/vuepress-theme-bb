@@ -2,7 +2,7 @@
 
 > This plugin requires VuePress >= **1.0.0**
 
-基于默认主题[@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md)扩展的博客主题
+基于 [@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md) 扩展的博客主题
 
 [中文说明](./zh/README.md)  |  [Demo](https://blog.sanbaofengs.com)
 
@@ -33,9 +33,9 @@ module.exports = {
 基本和[默认](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)保持一致
 
 **除了**:
-- 侧边栏: 干掉了.
-- 导航: 重写了.
-- 首页: 重写了. 必须得有 *README.md*. 
+- 侧边栏: 干掉了
+- 导航: 重写了
+- 首页: 重写了, 必须得有 *README.md*
     ```md
     <!-- @file README.md -->
     ---
