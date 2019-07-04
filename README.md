@@ -4,11 +4,12 @@
 
 A vuepress blog theme extends from [@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md)
 
-[中文说明](./README-zh.md)  |  [Demo](https://blog.sanbaofengs.com)
+[Blog Tool](https://www.npmjs.com/package/vuepress-plugin-new) | [中文说明](./README-zh.md)  |  [Demo](https://blog.sanbaofengs.com)
 
 ## Features
 
 - Tiny
+- 404 Page
 - Remove something doesn't matter for me
 
 ## Install

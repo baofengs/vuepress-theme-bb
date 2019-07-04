@@ -4,11 +4,12 @@
 
 基于 [@vuepress/theme-default](https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/README.md) 扩展的博客主题
 
-[中文说明](./zh/README.md)  |  [Demo](https://blog.sanbaofengs.com)
+[关联工具](https://www.npmjs.com/package/vuepress-plugin-new) | [README](./README.md)  |  [Demo](https://blog.sanbaofengs.com)
 
 ## Features
 
 - 极简
+- 自定义 404 页面
 - 移除了没啥用的东西
 
 ## 安装
