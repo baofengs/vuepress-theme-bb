@@ -1,6 +1,6 @@
 {
     "name": "vuepress-theme-bb",
-    "version": "0.2.1",
+    "version": "1.0.0",
     "license": "MIT",
     "author": "sanbaofeng <sanbaofeng@baijiahulian.com>",
     "description": "A vuepress theme extends from @vuepress/theme-default",
