@@ -10,7 +10,8 @@
         "vuepress-theme"
     ],
     "files": [
-        "index.js"
+        "src/",
+        "example/"
     ],
     "scripts": {
         "release": "release-it"
