@@ -1,6 +1,6 @@
 ---
 home: true
-about: https://arts.sanbaofengs.com/about
+about: https://arts.sanbaofengs.com/me
 ---
 
 Demo of Vuepress theme BB

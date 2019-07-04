@@ -2,10 +2,9 @@
     <div class="theme-container no-sidebar">
         <Navbar />
         <Home v-if="isHome" />
-        <Page v-else :sidebar-items="sidebarItems">
-            <slot name="page-top" slot="top" />
-            <slot name="page-bottom" slot="bottom" />
-        </Page>
+        <page v-else :sidebar-items="sidebarItems">
+            <AllPosts slot="bottom" />
+        </page>
     </div>
 </template>
 
@@ -13,10 +12,11 @@
 import Home from "@theme/components/Home.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Page from "@theme/components/Page.vue";
+import AllPosts from '@theme/components/AllPosts.vue';
 import { resolveSidebarItems } from "../util";
 
 export default {
-    components: { Home, Page, Navbar },
+    components: { Home, Page, Navbar, AllPosts },
     computed: {
         sidebarItems() {
             return resolveSidebarItems(

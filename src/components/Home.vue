@@ -11,7 +11,9 @@
                 </div>
             </section>
         </div>
-        <div class="aboutme" v-if="data.about"><a :href="data.about">About Me</a></div>
+        <div class="aboutme" v-if="data.about">
+            <a :href="data.about">About Me</a><a target="_blank" class="theme" href="https://www.npmjs.com/package/vuepress-theme-bb">Theme</a>
+        </div>
         <div class="footer" v-if="data.footer && !data.about">{{ data.footer }}</div>
     </div>
 </template>
@@ -119,6 +121,17 @@ export default {
         text-align: right;
         a {
             color: $darkColor;
+            padding-right: .5em;
+            border-right: 1px solid;
+            &:hover {
+                text-decoration: underline;
+            }
+            &.theme {
+                margin-right: 0;
+                padding-right: 0;
+                padding-left: .5em;
+                border: 0;
+            }
         }
     }
 }
