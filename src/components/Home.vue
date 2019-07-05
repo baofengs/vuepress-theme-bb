@@ -4,7 +4,7 @@
             <section class="link" v-for="year in Object.keys(pages)" :key="year">
                 <div class="link-year">{{year}}</div>
                 <div class="link-body" v-for="(page, index) in pages[year]" :key="index">
-                    <div class="link-body-createtime">{{page.date}}</div>
+                    <time class="link-body-createtime">{{page.date}}</time>
                     <div class="link-body-title">
                         <router-link class="nav-link" :to="page.path">{{ page.title }}</router-link>
                     </div>
@@ -75,7 +75,7 @@ export default {
         $aboutmeHeight: 20px;
         $footerHeight: 90px;
         margin-top: 0 !important;
-        min-height: 361px;
+        min-height: 36px;
     }
 
     .link{
@@ -91,10 +91,8 @@ export default {
             align-items: flex-start;
             margin: 12px 0;
             font-size: 1.4rem;
-            line-height: 2rem;
             &-createtime {
                 user-select: none;
-                flex-basis: 70px;
                 min-width: 70px;
                 font-family: Georgia, serif;
             }
@@ -119,18 +117,16 @@ export default {
     .aboutme {
         margin-top: 30px;
         text-align: right;
+        font-size: 1rem;
         a {
             color: $darkColor;
-            padding-right: .5em;
-            border-right: 1px solid;
+            padding-right: 1em;
             &:hover {
                 text-decoration: underline;
             }
             &.theme {
                 margin-right: 0;
                 padding-right: 0;
-                padding-left: .5em;
-                border: 0;
             }
         }
     }
@@ -138,16 +134,18 @@ export default {
 
 @media (max-width: $MQMobile) {
     .home {
-        padding: 2rem;
+        padding: 0 2rem;
     }
 }
 
 @media (max-width: $MQMobileNarrow) {
     .home {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        .aboutme {
-            text-align: left;
+        padding: 0 1.5rem;
+        .link-body {
+            font-size: 1.2rem;
+            &-createtime {
+                min-width: 60px;
+            }
         }
     }
 }

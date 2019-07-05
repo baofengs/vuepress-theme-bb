@@ -2,9 +2,8 @@
     <div class="theme-container no-sidebar">
         <Navbar />
         <Home v-if="isHome" />
-        <page v-else :sidebar-items="sidebarItems">
-            <AllPosts slot="bottom" />
-        </page>
+        <page v-else :sidebar-items="sidebarItems"></page>
+        <AllPosts v-if="!isHome" />
     </div>
 </template>
 
@@ -29,6 +28,9 @@ export default {
         isHome () {
             const {path, frontmatter} = this.$page;
             return path === '/' && frontmatter.home === true;
+        },
+        isNotHome () {
+            return !this.isHome;
         }
     }
 };

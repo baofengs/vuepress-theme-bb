@@ -14,7 +14,9 @@
         "example/"
     ],
     "scripts": {
-        "release": "release-it"
+        "release": "release-it",
+        "s": "vuepress dev example",
+        "n": "vuepress new example"
     },
     "repository": {
         "url": "x-bao/vuepress-theme-bb",

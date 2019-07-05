@@ -6,8 +6,7 @@
 
 <style lang="stylus">
 .all-posts {
-    position: relative;
-    top: -1rem;
+    margin-bottom: 34px;
     text-align: center;
     > a {
         color: #BDBDBD;

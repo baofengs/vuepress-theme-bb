@@ -18,7 +18,7 @@
     max-width: 740px;
     padding: 2rem 2.5rem;
     box-sizing: border-box;
-    border-bottom: 3px solid $textColor;
+    border-bottom: 2px solid $textColor;
 
     a {
         display: inline-block;
@@ -38,9 +38,18 @@
     }
 }
 
-@media (max-width: $MQNarrow) {
-    .navbar {
+@media (max-width: $MQMobile) {
+    .bb-navbar {
         padding: 2rem;
+    }
+}
+
+@media (max-width: $MQMobileNarrow) {
+    .bb-navbar {
+        padding: 2rem 1.5rem;
+        .site-name {
+            font-size: 2rem;
+        }
     }
 }
 </style>
